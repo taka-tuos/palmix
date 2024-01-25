@@ -1,0 +1,28 @@
+85,Relaxaurus Lux
+40,Incineram Noct
+24,Mau Cryst
+71,Vanwyrm Cryst
+37,Eikthyrdeer Terra
+80,Elphidran Aqua
+58,Pyrin Noct
+90,Mammorest Cryst
+33,Mossanda Lux
+64,Dinossom Lux
+12,Jolthog Cryst
+110,Frostallion Noct
+89,Ice Kingpaca
+104,Lyleen Noct
+45,Leezpunk Ignis
+84,Blazehowl Noct
+48,Robinquill Terra
+86,Broncherry Aqua
+65,Surfent Terra
+31,Gobfin Ignis
+102,Suzaku Aqua
+88,Ice Reptyro
+32,Hangyu Cryst
+104,Lyleen
+105,Faleris
+103,Grizzbolt
+106,Orserk
+107,Shadowbeak
