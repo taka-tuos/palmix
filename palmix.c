@@ -195,7 +195,16 @@ void create_table() {
 		for(int i = 0; i < 138; i++) {
 			int q = pal_list[i].power;
 			int ldif = p < q ? q - p : p - q;
-			if(dif > ldif || (dif == ldif && iid > pal_list[i].idx)) {
+			
+			int skp_flg = 0;
+			
+			for(int j = 0; j < 28; j++) {
+				if(uniq_bleed[j*3+0] == pal_list[i].idx) skp_flg = 1;
+			}
+			
+			if(skp_flg) continue;
+			
+			if(dif > ldif || (dif == ldif && iid >= pal_list[i].idx)) {
 				dif = ldif;
 				idx = i;
 				iid = pal_list[i].idx;
